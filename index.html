@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Video App</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #111;
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      padding: 16px;
+      text-align: center;
+      background: #181818;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 22px;
+    }
+
+    .player {
+      width: 100%;
+      max-width: 1000px;
+      margin: 0 auto;
+      background: #000;
+    }
+
+    iframe {
+      display: block;
+      width: 100%;
+      height: 56.25vw;
+      max-height: 600px;
+      border: 0;
+    }
+
+    .info {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 16px;
+    }
+
+    .info h2 {
+      margin-top: 0;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 12px 18px;
+      margin-top: 8px;
+      background: #fff;
+      color: #111;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Video App</h1>
+  </header>
+
+  <main>
+
+    <div class="player">
+      <iframe
+        src="https://drive.google.com/file/d/1DFk1hTDN9l6VUY2pbePBVfZFjm9_2l2_/preview"
+        allow="autoplay"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <div class="info">
+      <h2>Video 1</h2>
+      <p>Watch video online.</p>
+
+      <a
+        class="button"
+        href="https://drive.google.com/file/d/1DFk1hTDN9l6VUY2pbePBVfZFjm9_2l2_/view"
+        target="_blank"
+        rel="noopener">
+        Open Video
+      </a>
+    </div>
+
+  </main>
+
+</body>
+  </html>
